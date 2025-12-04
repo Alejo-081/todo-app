@@ -56,7 +56,7 @@ export default function Todos() {
     <>
       <h1>Lista de Todos</h1>
 
-      {cargando && <p>Cargando...</p>}
+      {cargando && <p>Cargando..</p>}
       {error && <p>{error}</p>}
 
       <form onSubmit={handleSubmit}>
