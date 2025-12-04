@@ -54,7 +54,7 @@ export default function Todos() {
 
   return (
     <>
-      <h1>Lista de Todos</h1>
+      <h1>Lista De Todos</h1>
 
       {cargando && <p>Cargando... </p>}
       {error && <p>{error}</p>}
