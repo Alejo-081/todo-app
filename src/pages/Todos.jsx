@@ -67,7 +67,7 @@ export default function Todos() {
           onChange={(e) => setNuevoTodo(e.target.value)}
           required
         />
-        <button>Agregar</button>
+        <button>Agregar </button>
       </form>
 
       <ul>
